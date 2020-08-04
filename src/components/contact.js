@@ -8,7 +8,7 @@ import {
   Button,
   Textfield
 } from 'react-mdl';
-import ContactFooter from '../components/ContactFooter';
+import ContactFooter from 'ContactFooter';
 
 class Contact extends Component {
   render() {
