@@ -56,8 +56,8 @@ class ContactFooter extends Component {
             </FooterDropDownSection>
             <FooterDropDownSection title='Resources'>
               <FooterLinkList>
-                <a href='#'>Help</a>
-                <a href='#'>Privacy & Terms</a>
+                {/*<a href='#'>Help</a>
+                <a href='#'>Privacy & Terms</a>*/}
                 <p>©2020 All rights reserved | Designed by Judy Lian</p>
               </FooterLinkList>
             </FooterDropDownSection>
