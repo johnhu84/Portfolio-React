@@ -1,10 +1,10 @@
-import React, { Component } from './node_modules/react';
+import React, { Component } from 'react';
 import {
   FooterDropDownSection,
   Footer,
   FooterLinkList,
   FooterSection
-} from './node_modules/react-mdl';
+} from 'react-mdl';
 class ContactFooter extends Component {
   render() {
     return (

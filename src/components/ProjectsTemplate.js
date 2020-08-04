@@ -1,4 +1,4 @@
-import React, { Component } from './node_modules/react';
+import React, { Component } from 'react';
 import {
   Grid,
   Card,
@@ -7,7 +7,7 @@ import {
   Button,
   CardMenu,
   CardText
-} from './node_modules/react-mdl';
+} from 'react-mdl';
 
 class ProjectsTemplate extends Component {
   render() {
