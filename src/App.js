@@ -7,10 +7,9 @@ import {
   Drawer,
   Content
 } from 'react-mdl';
-import Main from './Components/Main'
+import Main from './Components/Main';
 import { Link } from 'react-router-dom';
 import './App.css';
-
 
 function App() {
   return (
@@ -18,7 +17,17 @@ function App() {
     <div className='demo-big-content'>
       <Layout>
         <Header className='header-color' waterfall hideTop>
-          <HeaderRow title={<Link style={{textDecoration: 'none', color: 'white', shadow:'0'}} to="/" >My Portfolio</Link>} scroll>
+          <HeaderRow
+            title={
+              <Link
+                style={{ textDecoration: 'none', color: 'white', shadow: '0' }}
+                to='/'
+              >
+                My Portfolio
+              </Link>
+            }
+            scroll
+          >
             {/* Search Bar */}
             {/* <Textfield
               className='search'
@@ -36,7 +45,13 @@ function App() {
             </Navigation>
           </HeaderRow>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/" >My Portfolio</Link>}>
+        <Drawer
+          title={
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/'>
+              My Portfolio
+            </Link>
+          }
+        >
           <Navigation>
             <Link to='/About'>About</Link>
             <Link to='/projects'>Projects</Link>
@@ -47,10 +62,8 @@ function App() {
         <Content>
           <div className='page-content' />
           <Main />
-          
         </Content>
       </Layout>
-      
     </div>
   );
 }
