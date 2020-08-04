@@ -1,14 +1,14 @@
 import React, { Component } from './node_modules/react';
 import { Tabs, Tab, Grid, Cell } from './node_modules/react-mdl';
-import ProjectsTemplate from 'ProjectsTemplate';
+import ProjectsTemplate from './ProjectsTemplate';
 
-import DevConnector from 'image/DevConnector.jpg';
-import Movie from 'image/Movie.jpg';
-import Restaurant from 'image/Restaurant.jpg';
-import GoogleClone from 'image/GoogleClone.jpg';
-import HappyBday from 'image/HappyBday.jpg';
-import PhotoEditor from 'image/PhotoEditor.jpg';
-import ToDoList from 'image/ToDoList.jpg';
+import DevConnector from './image/DevConnector.jpg';
+import Movie from './image/Movie.jpg';
+import Restaurant from './image/Restaurant.jpg';
+import GoogleClone from './image/GoogleClone.jpg';
+import HappyBday from './image/HappyBday.jpg';
+import PhotoEditor from './image/PhotoEditor.jpg';
+import ToDoList from './image/ToDoList.jpg';
 
 class Projects extends Component {
   constructor(props) {
