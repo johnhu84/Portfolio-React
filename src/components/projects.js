@@ -1,6 +1,6 @@
 import React, { Component } from './node_modules/react';
 import { Tabs, Tab, Grid, Cell } from './node_modules/react-mdl';
-import ProjectsTemplate from 'Components/ProjectsTemplate';
+import ProjectsTemplate from 'ProjectsTemplate';
 
 import DevConnector from '../image/DevConnector.jpg';
 import Movie from '../image/Movie.jpg';
