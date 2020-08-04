@@ -9,7 +9,7 @@ import {
   CardText
 } from 'react-mdl';
 
-export class ProjectsTemplate extends Component {
+class ProjectsTemplate extends Component {
   render() {
     return (
       <div>

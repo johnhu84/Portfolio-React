@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, Grid } from 'react-mdl';
-import BlogTemplate from './BlogTemplate';
+import BlogTemplate from './components/BlogTemplate';
 
 
 // Simple header with scrollable tabs

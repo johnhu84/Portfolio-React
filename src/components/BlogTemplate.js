@@ -8,7 +8,7 @@ import {
   Button
 } from 'react-mdl';
 
-export class BlogTemplate extends Component {
+class BlogTemplate extends Component {
   render() {
     return (
       <div>
