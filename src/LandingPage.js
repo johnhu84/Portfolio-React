@@ -1,5 +1,5 @@
-import React, { Component } from './node_modules/react';
-import { Grid, Cell, Button } from './node_modules/react-mdl';
+import React, { Component } from 'react';
+import { Grid, Cell, Button } from 'react-mdl';
 
 class LandingPage extends Component {
   render() {

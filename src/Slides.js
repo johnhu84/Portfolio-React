@@ -1,5 +1,5 @@
-import Slider from './node_modules/react-animated-slider';
-import './node_modules/react-animated-slider/build/horizontal.css';
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
  
 const slides = [
   { title: 'First item', description: 'Lorem ipsum'}

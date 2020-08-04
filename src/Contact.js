@@ -1,4 +1,4 @@
-import React, { Component } from './node_modules/react';
+import React, { Component } from 'react';
 import {
   Grid,
   Cell,
@@ -7,7 +7,7 @@ import {
   ListItemContent,
   Button,
   Textfield
-} from './node_modules/react-mdl';
+} from 'react-mdl';
 import ContactFooter from './ContactFooter';
 
 class Contact extends Component {
