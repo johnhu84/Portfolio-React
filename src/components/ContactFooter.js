@@ -5,7 +5,7 @@ import {
   FooterLinkList,
   FooterSection
 } from 'react-mdl';
-export class ContactFooter extends Component {
+class ContactFooter extends Component {
   render() {
     return (
       <div className='footer'>
